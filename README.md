@@ -1,28 +1,33 @@
-Notesnook
+# Notesnook
+
 Notesnook is a powerful note-taking application built using the MERN stack (MongoDB, Express, React, Node.js). It allows users to sign up or log in, create, delete, search, pin, and edit notes with title, content, and tags.
 
-Features
-Features
+# Features
+
 User Authentication: Secure user login and registration.
 CRUD Operations: Create, Read, Update, and Delete operations for managing data.
 Responsive Design: User-friendly interface that adapts to various screen sizes.
 RESTful API: Backend API for handling client requests.
 
-Getting Started
-Prerequisites
+# Getting Started
+
+## Prerequisites
+
 Make sure you have the following installed on your machine:
 
 Node.js
 npm (Node Package Manager)
 MongoDB
 
-Set Up
+# Set Up
+
 Clone the Repository
 First, clone the repository:
 git clone <repository-url>
 cd <repository-directory>
 
-Fetch All Branches
+## Fetch All Branches
+
 Fetch all branches from the remote repository:
 
 git fetch --all
@@ -31,9 +36,6 @@ List all branches to confirm that the develop branch is available:
 
 git branch -a
 You should see something like:
-
-bash
-Copy code
 
 - main
   remotes/origin/develop
@@ -47,59 +49,67 @@ Ensure you are on the develop branch and that it is up to date:
 
 git branch
 
-Install Dependencies
+## Install Dependencies
 
-Backend
+### Backend
+
 Navigate to the backend directory and install the dependencies:
 
 cd backend
 npm install
 
-Frontend
+### Frontend
+
 Navigate to the frontend directory and install the dependencies:
 
 cd ../frontend/note-nook
 npm install
 
-Set Up Environment Variables
+## Set Up Environment Variables
+
 Create .env files. There are .env.example files provided which you can copy and rename to .env, then fill in the necessary values.
 
-For the backend:
+### For the backend:
 
 cd ../backend # Navigate back to the backend directory
 cp .env.example .env  
 cp .env.test.example .env.test
 cp .env.development.example .env.development
 
-Start the Server
+### Start the Server
+
 Start the Backend Server
 
 cd ../backend
 npm start
 
-Start the Frontend Server
+### Start the Frontend Server
 
 cd ../frontend/note-nook
 npm run dev
 
-Running Tests
+## Running Tests
 
-Frontend Unit Tests
+### Frontend Unit Tests
+
 Navigate to the frontend directory and run the tests:
 
 cd ../frontend/note-nook
 npm test
 
-Backend Unit Tests
+### Backend Unit Tests
+
 Navigate to the backend directory and run the tests:
 
 cd ../backend
 npm test
 
-License
+# License
+
 This project is licensed under the MIT License - see the LICENSE file for details.
 
-Acknowledgments
+# Acknowledgments
+
 Special thanks to the 10Pearls team.
 
 MERN Track Team:
