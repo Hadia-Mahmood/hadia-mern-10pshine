@@ -4,10 +4,10 @@ Notesnook is a powerful note-taking application built using the MERN stack (Mong
 
 # Features
 
-User Authentication: Secure user login and registration.
-CRUD Operations: Create, Read, Update, and Delete operations for managing data.
-Responsive Design: User-friendly interface that adapts to various screen sizes.
-RESTful API: Backend API for handling client requests.
+- User Authentication: Secure user login and registration.
+- CRUD Operations: Create, Read, Update, and Delete operations for managing data.
+- Responsive Design: User-friendly interface that adapts to various screen sizes.
+- RESTful API: Backend API for handling client requests.
 
 # Getting Started
 
@@ -15,37 +15,40 @@ RESTful API: Backend API for handling client requests.
 
 Make sure you have the following installed on your machine:
 
-Node.js
-npm (Node Package Manager)
-MongoDB
+- Node.js
+- npm (Node Package Manager)
+- MongoDB
 
 # Set Up
 
 Clone the Repository
 First, clone the repository:
-git clone <repository-url>
-cd <repository-directory>
+
+- git clone <repository-url>
+- cd <repository-directory>
 
 ## Fetch All Branches
 
-Fetch all branches from the remote repository:
+- Fetch all branches from the remote repository:
 
 git fetch --all
-List All Branches
-List all branches to confirm that the develop branch is available:
+
+- List All Branches
 
 git branch -a
+
 You should see something like:
 
 - main
-  remotes/origin/develop
+- remotes/origin/develop
 
-Check Out the develop Branch
-Create a local tracking branch for develop and switch to it:
+- Check Out the develop Branch
+  Create a local tracking branch for develop and switch to it:
 
 git checkout -b develop origin/develop
-Verify the Branch
-Ensure you are on the develop branch and that it is up to date:
+
+- Verify the Branch
+  Ensure you are on the develop branch and that it is up to date:
 
 git branch
 
@@ -55,15 +58,15 @@ git branch
 
 Navigate to the backend directory and install the dependencies:
 
-cd backend
-npm install
+- cd backend
+- npm install
 
 ### Frontend
 
 Navigate to the frontend directory and install the dependencies:
 
-cd ../frontend/note-nook
-npm install
+- cd ../frontend/note-nook
+- npm install
 
 ## Set Up Environment Variables
 
@@ -71,22 +74,22 @@ Create .env files. There are .env.example files provided which you can copy and 
 
 ### For the backend:
 
-cd ../backend # Navigate back to the backend directory
-cp .env.example .env  
-cp .env.test.example .env.test
-cp .env.development.example .env.development
+- cd ../backend # Navigate back to the backend directory
+- cp .env.example .env
+- cp .env.test.example .env.test
+- cp .env.development.example .env.development
 
 ### Start the Server
 
 Start the Backend Server
 
-cd ../backend
-npm start
+- cd ../backend
+- npm start
 
 ### Start the Frontend Server
 
-cd ../frontend/note-nook
-npm run dev
+- cd ../frontend/note-nook
+- npm run dev
 
 ## Running Tests
 
@@ -94,15 +97,15 @@ npm run dev
 
 Navigate to the frontend directory and run the tests:
 
-cd ../frontend/note-nook
-npm test
+- cd ../frontend/note-nook
+- npm test
 
 ### Backend Unit Tests
 
 Navigate to the backend directory and run the tests:
 
-cd ../backend
-npm test
+- cd ../backend
+- npm test
 
 # License
 
@@ -112,13 +115,15 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 
 Special thanks to the 10Pearls team.
 
-MERN Track Team:
-Usama Bin Yousuf
-Mohmmad Noman
-Rimsha Abid
-Syed Muhammad Bakhtiyar
+## MERN Track Team:
 
-Internship Team:
-Syed Anus Intizar Ahmed
-Ummara Amin
-Samia Ali
+- Usama Bin Yousuf
+- Mohmmad Noman
+- Rimsha Abid
+- Syed Muhammad Bakhtiyar
+
+## Internship Team:
+
+- Syed Anus Intizar Ahmed
+- Ummara Amin
+- Samia Ali
