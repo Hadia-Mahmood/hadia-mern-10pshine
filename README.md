@@ -9,6 +9,30 @@ Notesnook is a powerful note-taking application built using the MERN stack (Mong
 - Responsive Design: User-friendly interface that adapts to various screen sizes.
 - RESTful API: Backend API for handling client requests.
 
+### Home Page
+
+![HomePage](ReadMeImages/HomePage.png)
+
+### Sign In
+
+![SignIn](ReadMeImages/SignIn.png)
+
+### Sign up
+
+![signup](ReadMeImages/signup.png)
+
+### Dashboard
+
+![dashboard](ReadMeImages/dashboard.png)
+
+### Add note
+
+![addnote](ReadMeImages/addnote.png)
+
+### Search note
+
+![search](ReadMeImages/search.png)
+
 # Getting Started
 
 ## Prerequisites
