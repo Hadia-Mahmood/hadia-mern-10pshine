@@ -2,6 +2,27 @@
 
 Notesnook is a powerful note-taking application built using the MERN stack (MongoDB, Express, React, Node.js). It allows users to sign up or log in, create, delete, search, pin, and edit notes with title, content, and tags.
 
+## Tech Stack
+
+### Frontend
+
+- REACT
+- BOOTSTRAP
+- TAILWIND CSS
+- AXIOS
+- JEST
+
+### Backend
+
+- NODE.JS
+- EXPRESS
+- MongoDB
+- MOCHA
+- CHAI
+- JSON WEB TOKENS
+- PINO
+- PINO-PRETTY
+
 # Features
 
 - User Authentication: Secure user login and registration.
@@ -66,13 +87,13 @@ You should see something like:
 - main
 - remotes/origin/develop
 
-- Check Out the develop Branch
-  Create a local tracking branch for develop and switch to it:
+- Check Out the prod Branch
+  Create a local tracking branch for prod and switch to it:
 
-git checkout -b develop origin/develop
+git checkout -b prod origin/prod
 
 - Verify the Branch
-  Ensure you are on the develop branch and that it is up to date:
+  Ensure you are on the prod branch and that it is up to date:
 
 git branch
 
@@ -93,6 +114,22 @@ Navigate to the frontend directory and install the dependencies:
 - npm install
 
 ## Set Up Environment Variables
+
+The following environment variables are required to run this project.
+
+For the .env file
+
+- `ACCESS_TOKEN_SECRET`: Json Web Token
+- `PORT`: The port number on which you want to run your server
+- `TOKEN_EXPIRY`: The JWT expiration time. For example 20h
+
+For the .env.development file
+
+- `MONGO`: MongoDB connection string for storing user data
+
+For the .env.test file
+
+- `MONGO`: MongoDB connection string for storing testing data
 
 Create .env files. There are .env.example files provided which you can copy and rename to .env, then fill in the necessary values.
 
@@ -130,6 +167,11 @@ Navigate to the backend directory and run the tests:
 
 - cd ../backend
 - npm test
+
+## Additional Features and Information
+
+- Searcbar : we can search for a note by its title or content
+- Pin a Note : we can pin notes so that important notes appears on top of the screen
 
 # License
 
